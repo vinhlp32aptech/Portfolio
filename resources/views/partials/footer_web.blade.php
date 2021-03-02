@@ -83,6 +83,10 @@
 <script src="templateportfolio/js/jquery.min.js"></script>
 <script src="templateportfolio/js/popper.min.js"></script>
 <script src="templateportfolio/js/bootstrap.min.js"></script>
+<script src="templateportfolio/js/son.js"></script>
+<script src="templateportfolio/js/nam.js"></script>
+<script src="templateportfolio/js/cuong.js"></script>
+
 <!-- ALL PLUGINS -->
 <script src="templateportfolio/js/jquery.magnific-popup.min.js"></script>
 <script src="templateportfolio/js/jquery.pogo-slider.min.js"></script>

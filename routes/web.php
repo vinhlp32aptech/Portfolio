@@ -36,10 +36,6 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
-Route::get('/', 'SiteController@about');
-Route::get('/', 'SiteController@about');
-Route::get('/', 'SiteController@about');
-Route::get('/', 'SiteController@about');
 
 Route::prefix('categories')->group(function (){
     Route::get('/create', [
