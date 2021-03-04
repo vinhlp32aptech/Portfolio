@@ -36,9 +36,6 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
-Route::get('/', function () {
-    return view('');
-});
 
 Route::prefix('categories')->group(function (){
     Route::get('/create', [
