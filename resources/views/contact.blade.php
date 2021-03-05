@@ -69,7 +69,7 @@
                         </div>
                         <div class="media-body dit-right">
                             <h4>Address</h4>
-                            <p>Fleming 196 Woodside Circle Mobile, FL 36602</p>
+                            <p>24 Phan Liem, Da Kao, Quan 1, Ho Chi Minh, Viet Nam</p>
                         </div>
                     </div>
                     <div class="media cont-line">
@@ -78,8 +78,8 @@
                         </div>
                         <div class="media-body dit-right">
                             <h4>Email</h4>
-                            <a href="#">demoinfo@gmail.com</a><br>
-                            <a href="#">demoinfo@gmail.com</a>
+                            <a href="#">portfoliopremium@gmail.com</a><br>
+
                         </div>
                     </div>
                     <div class="media cont-line">
@@ -95,6 +95,7 @@
                 </div>
             </div>
 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1298.4932636602566!2d106.69445751031638!3d10.789983380455622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528cb4ba30aa5%3A0x3a0ddc230888b922!2zMjQgUGhhbiBMacOqbSwgxJBhIEthbywgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1614919280901!5m2!1svi!2s" width="2000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
         </div>
     </div>
