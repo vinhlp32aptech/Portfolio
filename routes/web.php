@@ -32,8 +32,8 @@ Route::get('/signin', function () {
     return view('signin');
 });
 
-Route::get('/signup', function () {
-    return view('signup');
+Route::get('/profie', function () {
+    return view('profie');
 });
 
 
