@@ -86,6 +86,7 @@
 <script src="templateportfolio/js/son.js"></script>
 <script src="templateportfolio/js/nam.js"></script>
 <script src="templateportfolio/js/cuong.js"></script>
+<script src="templateportfolio/js/vinh.js"></script>
 
 <!-- ALL PLUGINS -->
 <script src="templateportfolio/js/jquery.magnific-popup.min.js"></script>
