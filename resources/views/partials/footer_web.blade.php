@@ -51,6 +51,7 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -60,11 +61,14 @@
 </footer>
 <!-- End Footer -->
 
+
+
 <div class="footer_bottom">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="crp">© 2019 RD resume . All Rights Reserved.</p>
+
+                <p class="crp">© 2021 RD resume . All Rights Reserved.</p>
                 <ul class="bottom_menu">
                     <li><a href="{{ url('about') }}">About Us</a></li>
                     <li><a href="{{ url('service') }}">Our Service</a></li>
@@ -72,10 +76,12 @@
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Privacy</a></li>
                 </ul>
+
             </div>
         </div>
     </div>
 </div>
+
 
 <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
