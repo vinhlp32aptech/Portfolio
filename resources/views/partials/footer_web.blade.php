@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="logo">
-                    <a href="{{ url('index') }}"><img src="templateportfolio/images/footer_logo.png" alt="#" /></a>
+                    <a href="{{ url('index') }}"><img src="templateportfolio/images/logo1.png" alt="#" /></a>
                 </div>
             </div>
             <div class="col-lg-12 white_fonts">

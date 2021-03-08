@@ -257,7 +257,7 @@ LOADER
      padding: 5px 0px;
 }
  .top-header {
-     background-image: url("../images/header_img.png");
+     background-color: white;
      position: relative;
      top: 0px;
      left: 0px;
@@ -266,7 +266,6 @@ LOADER
      z-index: 20;
      background-position: left;
      background-repeat: no-repeat;
-     background-color: #0892fd;
      background-size: auto 100%;
 }
  .top-header .navbar .navbar-collapse ul li a {

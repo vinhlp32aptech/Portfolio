@@ -48,7 +48,7 @@
 <!-- LOADER -->
 <div id="preloader">
     <div class="loader">
-        <img src="templateportfolio/images/loader.gif" alt="#"/>
+{{--        <img src="templateportfolio/images/loader.gif" alt="#"/>--}}
     </div>
 </div>
 <!-- end loader -->
