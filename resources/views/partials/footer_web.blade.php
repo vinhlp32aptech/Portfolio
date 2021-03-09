@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="logo">
-                    <a href="{{ url('index') }}"><img src="templateportfolio/images/footer_logo.png" alt="#" /></a>
+                    <a href="{{ route('index') }}"><img src="templateportfolio/images/footer_logo.png" alt="#" /></a>
                 </div>
             </div>
             <div class="col-lg-12 white_fonts">
@@ -70,9 +70,9 @@
 
                 <p class="crp">© 2021 RD resume . All Rights Reserved.</p>
                 <ul class="bottom_menu">
-                    <li><a href="{{ url('about') }}">About us</a></li>
-                    <li><a href="{{ url('service') }}">Our Service</a></li>
-                    <li><a href="{{ url('contact') }}">Contact us</a></li>
+                    <li><a href="{{ route('about') }}">About us</a></li>
+                    <li><a href="{{ route('service') }}">Our Service</a></li>
+                    <li><a href="{{ route('contact') }}">Contact us</a></li>
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Privacy</a></li>
                 </ul>

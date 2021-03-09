@@ -56,7 +56,7 @@
 <header class="top-header">
     <nav class="navbar header-nav navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url('index') }}"><img src="templateportfolio/images/logo.png" alt="image"></a>
+            <a class="navbar-brand" href="{{ route('index') }}"><img src="templateportfolio/images/logo.png" alt="image"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd"
                     aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
@@ -65,11 +65,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link active" href="{{ url('index') }}">Home</a></li>
-                    <li><a class="nav-link" href="{{ url('about') }}">About us</a></li>
-                    <li><a class="nav-link" href="{{ url('service') }}">Service</a></li>
-                    <li><a class="nav-link" href="{{ url('contact') }}">Contact Us</a></li>
-                    <li><a class="nav-link active" style="background:#fff;color:#000;" href="{{ url('signin') }}">SignIn
+                    <li><a class="nav-link active" href="{{ route('index') }}">Home</a></li>
+                    <li><a class="nav-link" href="{{ route('about') }}">About us</a></li>
+                    <li><a class="nav-link" href="{{ route('service') }}">Service</a></li>
+                    <li><a class="nav-link" href="{{ route('contact') }}">Contact Us</a></li>
+                    <li><a class="nav-link active" style="background:#fff;color:#000;" href="{{ route('signin') }}">SignIn
                             | SignUp</a></li>
                 </ul>
             </div>
