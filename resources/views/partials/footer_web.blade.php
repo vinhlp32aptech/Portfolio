@@ -70,7 +70,7 @@
 
                 <p class="crp">© 2021 RD resume . All Rights Reserved.</p>
                 <ul class="bottom_menu">
-                    <li><a href="{{ url('about') }}">About Us</a></li>
+                    <li><a href="{{ url('about') }}">About us</a></li>
                     <li><a href="{{ url('service') }}">Our Service</a></li>
                     <li><a href="{{ url('contact') }}">Contact us</a></li>
                     <li><a href="#">Terms of Service</a></li>
