@@ -252,6 +252,10 @@ LOADER
      font-weight: 900;
      border-radius: 100%;
 }
+
+a#scroll-to-top i {
+    padding-top: 5px;
+}
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
  .top-header .navbar{
      padding: 5px 0px;
@@ -1140,6 +1144,11 @@ LOADER
      overflow: hidden;
      margin-bottom: 30px;
 }
+
+.media.cont-line .media-left {
+    padding-top: 14px;
+}
+
  .icon-b {
      width: 55px;
      height: 55px;
