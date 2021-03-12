@@ -20,8 +20,7 @@
                                 <div class="slide_text">
                                     <h3><span class="theme_color">EASILY</span> CREATE ONLINE</h3>
                                     <br>
-                                    <h4>CV AND PROFESSIONAL<br>RESUME IN MINUTES</h4>
-                                    <br>
+
                                     <p>Showcase your Profile to the world
                                         <br>using online CV builder and Get Hired Faster</p>
                                     <a class="contact_bt" href="#">Contact us</a>
@@ -37,8 +36,7 @@
                                 <div class="slide_text">
                                     <h3><span class="theme_color">EASILY</span> CREATE ONLINE</h3>
                                     <br>
-                                    <h4>CV AND PROFESSIONAL<br>RESUME IN MINUTES</h4>
-                                    <br>
+
                                     <p>Showcase your Profile to the world
                                         <br>using online CV builder and Get Hired Faster</p>
                                     <a class="contact_bt" href="#">Contact us</a>
@@ -73,12 +71,13 @@
 <div class="section layout_padding theme_bg_title_slider">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 black_fonts_slider">
-                <h3 class="small_heading_title_sli">Proven cover letter templates</h3>
-                <p class="small_heading_title_sli_p">Win over employers and recruiters by using one of our </p><p class="small_heading_title_sli_p">18 professionally-designed cover letter templates.</p><p class="small_heading_title_sli_p"> Download to Word or PDF.</p>
-                <a href="#" class="hvr-radial-out button-theme-title_marquee">Use This Template</a>
-            </div>
-
+            <div class="col-md-12">
+                <div class="full center margin-bottom_30">
+                    <div class="heading_main text_align_center">
+                        <h2><span class="theme_color">Proven</span>cover letter templates</h2>
+                        <p class="small_heading_title_sli_p">Win over employers and recruiters by using one of our </p><p class="small_heading_title_sli_p">18 professionally-designed cover letter templates.</p><p class="small_heading_title_sli_p"> Download to Word or PDF.</p>
+                    </div>
+                </div>
             <!-- image slider start -->
             <div class="slider">
                 <div class="slides">
@@ -141,16 +140,21 @@
             <p class="marquee_p">Stockholm</p>
             <p class="marquee_p1"> 370,000+ users chose this template</p>
         </div>
+
+        <div class="col-md-12">
+
+            <div class="marquee">
+                <marquee>Only 2% of records pass the first round. In the top 2%
+                    Use professional resume templates that have been practically checked according to the 'resume rules' that employers search. Easy to use and done in minutes!</marquee>
+            </div>
+        </div>
+        </div>
+
     </div>
 </div>
 <!-- end section -->
 
-<div class="marque">
-    <div class="marquee">
-        <marquee>Only 2% of records pass the first round. In the top 2%
-            Use professional resume templates that have been practically checked according to the 'resume rules' that employers search. Easy to use and done in minutes!</marquee>
-    </div>
-</div>
+
 
 
 <!-- section  mới -->
@@ -187,15 +191,21 @@
         <div class="row">
 
             <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
-                <h3 class="small_heading">CREATE PERSONALISED CV </h3>
-                <p>HELP YOUR NEXT CAREER MOVE MORE SMOOTHER AND MORE EFFICIENT</p>
-                <p>ss normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in theirss normal distribution of letters, as opposed to using 'Content here, content here', making it look like../p>
+                <h3 class="small_heading">Effortlessly make a job-worthy resume and cover letter that gets you hired faster</h3>
+                <p>EASILY EDIT ONLINE</p>
+                <p>Creating the perfectly formatted, custom tailored resume has never been easier.</p>
+                <p>ADD PRE-WRITTEN PhRASES</p>
+                <p>Beat writer’s block with pre-written and tested phrases that successfully communicate your experience and skills.</p>
+                <p>AUTOMATIC SPELL-CHECKER</p>
+                <p>Our built-in spell-checker will protect you from mistakes and typos. Remove all the grammar anxiety from resume writing!</p>
+                <p>EXPORT TO ANYTHING</p>
+                <p>You’re in control of your resume, our exports work perfectly with Word or any other app.</p>
                 <p><a href="{{ url('about') }}" class="hvr-radial-out button-theme">Read more ></a></p>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
                 <div class="full">
-                    <img class="img-responsive" src="templateportfolio/images/resume_img2.png" alt="#" />
+                    <img class="img-responsive_1" src="templateportfolio/images/resume_img2.png" alt="#" />
                 </div>
             </div>
         </div>
@@ -236,14 +246,16 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
                 <div class="full">
-                    <img class="img-responsive" src="templateportfolio/images/resume_img.png" alt="#" />
+                    <img class="img-responsive" src="templateportfolio/images/cv10.png" alt="#" />
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
-                <h3 class="small_heading">EVERYTHING YOU NEED IN ONE SOLUTION</h3>
-                <p>HELP YOUR NEXT CAREER MOVE MORE SMOOTHER AND MORE EFFICIENT</p>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                <h3 class="small_heading">READ YOUR CV AT THE EMPLOYER LOCATION</h3>
+                <p>READ MY CV AS AN EMLOYER</p>
+                <p>As candidates, we always try to create attractive and impressive resumes (CVs) for prospective companies and hope it can give us an interview opportunity. However, have you ever considered what employers are often looking for, what information do you want to see, and how you really feel when reading your CV? The effort to beautify the CV is right, but beautiful in the eyes of the writer or reader is really the key should be concerned.</p>
+                <p>Being able to put yourself in the shoes of your reader is most important when you plan to plan your CV. This is also a basic rules of the best number that marketers apply to their communication and all communication activities - target audience. Everything is derived from here.
+                </p>
                 <a href="#" class="hvr-radial-out button-theme">Get Started ></a>
             </div>
         </div>

@@ -2,6 +2,7 @@
     background: white;
 }
 
+
 .black_fonts{
     color: #666666;
 }
@@ -53,10 +54,12 @@ h3.small_heading_title_sli{
     font-size: 40px;
     font-weight: bold;
     color: #262B33;
+    text-align: center;
 }
 .small_heading_title_sli_p{
-    font-size: 15px;
+    font-size: 30px;
     color: #262B33;
+    text-align: center;
 }
 .button-theme-title_marquee{
     background: #070500;
@@ -74,10 +77,10 @@ h3.small_heading_title_sli{
     background: #F2F5FA;
 }
 .marquee{
-    background: #F2F5FA;
+
     font-size: 25px;
     font-weight: bold;
-    color: #262B33;
+    color: #0892fd;
 }
 
 .marquee_p{
@@ -104,7 +107,7 @@ h4.title_fonts_default_4{
 
 
 .slider{
-    width: 800px;
+    width: 100%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
@@ -125,7 +128,7 @@ h4.title_fonts_default_4{
     transition: 2s;
 }
 .slide1 img{
-    width: 800px;
+    width: fit-content;
     height: 500px;
 }
 /* css manul slide navigation */
@@ -287,3 +290,22 @@ a.blog-jumbotron__cta{
     font: 19px"TT Commons", system-ui, -apple-system;
     margin: 0px 0px 12px;
 }
+
+.img-responsive_1{
+    height: 100%;
+    width: 700px;
+}
+.img-responsive_about_1 {
+    height: 500px;
+    width: 1170px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
