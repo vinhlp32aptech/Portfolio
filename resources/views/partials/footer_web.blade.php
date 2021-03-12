@@ -26,7 +26,7 @@
                         </div>
                         <div class="full white_fonts text_align_center">
                             <p>consultation@gmail.com
-                                <br>consultation@gmail.com</p>
+                               </p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -35,7 +35,7 @@
                         </div>
                         <div class="full white_fonts text_align_center">
                             <p>+7586656566
-                                <br>+7586656566</p>
+                               </p>
                         </div>
                     </div>
                 </div>
