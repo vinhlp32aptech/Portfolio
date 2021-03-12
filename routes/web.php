@@ -5,36 +5,40 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/about', function () {
+Route::get('/admin', function () {
+    return view('home');
+})->name('home');
+
+Route::get('/home', function () {
+    return view('index');
+})->name('index');
+
+Route::get('/about-us', function () {
     return view('about');
-});
+})->name('about');
 
-Route::get('/contact', function () {
+Route::get('/contact-us', function () {
     return view('contact');
-});
+})->name('contact');
 
-Route::get('/service', function () {
+Route::get('/our-service', function () {
     return view('service');
-});
+})->name('service');
 
-Route::get('/signin', function () {
+Route::get('/sign-in', function () {
     return view('signin');
-});
+})->name('signin');
+
+Route::get('/sign-up', function () {
+    return view('signup');
+})->name('signup');
 
 Route::get('/profie', function () {
     return view('profie');
-});
+})->name('profie');
 
 
 Route::prefix('categories')->group(function (){

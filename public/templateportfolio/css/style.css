@@ -252,6 +252,10 @@ LOADER
      font-weight: 900;
      border-radius: 100%;
 }
+
+a#scroll-to-top i {
+    padding-top: 5px;
+}
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
  .top-header .navbar{
      padding: 5px 0px;
@@ -288,7 +292,7 @@ LOADER
  .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
      background: transparent;
      color: #fff;
-     border-radius: ;
+     /*border-radius: ;*/
 }
  .search_icon.nav-link img {
      width: 25px;
@@ -1139,6 +1143,11 @@ LOADER
      overflow: hidden;
      margin-bottom: 30px;
 }
+
+.media.cont-line .media-left {
+    padding-top: 14px;
+}
+
  .icon-b {
      width: 55px;
      height: 55px;
@@ -1225,7 +1234,7 @@ LOADER
 }
  .footer-box {
      background: #072745;
-     padding: 50px 0;
+     padding: 20px 0;
      text-align: center;
 }
  .footer-box .footer-company-name {
