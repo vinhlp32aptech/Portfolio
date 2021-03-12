@@ -113,7 +113,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
                 <div class="full">
-                    <img class="img-responsive" src="templateportfolio/images/resume_img.png" alt="#" />
+                    <img class="img-responsive" src="templateportfolio/images/cv11.png" alt="#" />
                 </div>
             </div>
 
@@ -200,7 +200,7 @@
                 <div class="row">
                     <div class="col-lg-12">
 
-                        <img class="img-responsive_about" src="templateportfolio/images/cv8.png" alt="#" />
+                        <img class="img-responsive_about_1" src="templateportfolio/images/cv8.png" alt="#" />
 
                     </div>
                 </div>
@@ -227,58 +227,12 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div id="demo" class="carousel slide" data-ride="carousel">
-
-                            <!-- The slideshow -->
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv.png" alt="#" />
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv1.png" alt="#" />
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv4.png" alt="#" />
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv5.png" alt="#" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv2.png" alt="#" />
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv3.png" alt="#" />
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv6.png" alt="#" />
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <img class="img-responsive_cv" src="templateportfolio/images/cv7.png" alt="#" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Left and right controls -->
-                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a class="carousel-control-next" href="#demo" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </a>
-
-                        </div>
 
 
-                    </div>
+                        <img class="img-responsive_about_1" src="templateportfolio/images/cv9.png" alt="#" />
 
-                    <div class="col-lg-12">
+
+                        <div class="col-lg-12">
                         <h2 class="about_1">Few details</h2>
                         <p class="about_2">At Resume.io, we believe that building a job-worthy resume should be a fast and simple process. In fact, we’ve always been about building systems that are quick and easy-to-use, yet consistently get good results.</p>
                         <p class="about_3">It all started in 2012, when we launched a small web app that built online documents such as cancellation letters and basic resumes. A couple months after launching we noticed a strange trend; most people were visiting our site just to build resumes.</p>
