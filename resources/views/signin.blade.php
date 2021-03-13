@@ -29,6 +29,7 @@
                             <a href="#" class="google btn"><i class="fa fa-google fa-fw">
                                 </i> Login with Google+
                             </a>
+
                         </div>
 
                         <div class="col">

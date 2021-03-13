@@ -7,8 +7,17 @@
       <sourceFolder url="file://$MODULE_DIR$/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/oauth1-client" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="essential_top_scripts-f77ee6a75ff4b3c389f0baff9aa776a1" level="application" />
+    <orderEntry type="library" name="application-a33a01ede618c8f4cbc7e592b18ac579" level="application" />
+    <orderEntry type="library" name="application-69704de57475d54420ec8f6e5a4fcc9d" level="application" />
+    <orderEntry type="library" name="resize-6eed758758803f3a46787f316340801a" level="application" />
+    <orderEntry type="library" name="bsa" level="application" />
   </component>
 </module>
