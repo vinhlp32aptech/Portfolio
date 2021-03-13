@@ -40,6 +40,8 @@ Route::get('/profie', function () {
     return view('profie');
 })->name('profie');
 
+Route::get('/sendemail', 'SendEmailController@index');
+Route::post('/sendemail/send', 'SendEmailController@send');
 
 Route::prefix('categories')->group(function (){
     Route::get('/create', [
@@ -47,3 +49,8 @@ Route::prefix('categories')->group(function (){
         'uses' => 'CategoryController@create'
     ]);
 });
+
+
+
+
+
