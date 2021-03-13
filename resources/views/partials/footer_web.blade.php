@@ -1,11 +1,7 @@
 <footer class="footer-box">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div style="margin-top: 50px " class="col-lg-12 white_fonts ">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPortfolio-Prenium-106459114852558&tabs&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></iframe>
-                </div>
-            </div>
+
             <div class="col-md-4">
                 <div class="col-lg-12">
                     <div class="logo">
@@ -15,7 +11,7 @@
             <div class="col-md-4">
                 <div class="margin-top_30 col-md-8 offset-md-2 white_fonts">
                     <div class="row">
-
+                        <div class="col-md-4"></div>
                         <div class="full icon text_align_center">
                             <img src="templateportfolio/images/social1.png">
                         </div>
@@ -23,7 +19,7 @@
                             <p>London 145
                                 <br>United Kingdom</p>
                         </div>
-                        <br>
+
 
                         <div class="full icon text_align_center">
                             <img src="templateportfolio/images/social2.png">
@@ -32,7 +28,7 @@
                             <p>consultation@gmail.com
                             </p>
                         </div>
-                        <br>
+
 
                         <div class="full icon text_align_center">
                             <img src="templateportfolio/images/social3.png">
@@ -44,7 +40,11 @@
 
                     </div>
                 </div></div>
-
+            <div class="col-md-4">
+                <div style="margin-top: 50px " class="col-lg-12 white_fonts ">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPortfolio-Prenium-106459114852558&tabs&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></iframe>
+                </div>
+            </div>
         </div>
         <div  class="row white_fonts ">
             <div  class="col-lg-12">
