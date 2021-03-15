@@ -17,7 +17,7 @@
     <title>Template 1</title>
 
     <!-- Styles -->
-    <link href="../../../public/templateportfolio/css/son-templateCv1/style.css" rel="stylesheet" media="screen">
+    <link href="../../../../public/templateportfolio/css/son-templateCv1/style.css" rel="stylesheet" media="screen">
 </head>
 
 <body class="body-full-page">
@@ -107,12 +107,12 @@
     <div data-anchor="page3" class="pp-scrollable text-white section section-3 pp-section" style="z-index: 6;">
         <div class="scroll-wrap">
             <div class="bg-changer">
-                <div class="section-bg" style="background-image:url(../../../public/templateportfolio/images/son_templateCv1/bg2.jpg);"></div>
-                <div class="section-bg" style="background-image:url(../../../public/templateportfolio/images/son_templateCv1/bg2-2.jpg);"></div>
-                <div class="section-bg" style="background-image:url(../../../public/templateportfolio/images/son_templateCv1/bg2-3.jpg);"></div>
-                <div class="section-bg" style="background-image:url(../../../public/templateportfolio/images/son_templateCv1/bg2-4.jpg);"></div>
-                <div class="section-bg" style="background-image:url(../../../public/templateportfolio/images/son_templateCv1/bg2-5.jpg);"></div>
-                <div class="section-bg" style="background-image:url(../../../public/templateportfolio/images/son_templateCv1/bg2-6.jpg);"></div>
+                <div class="section-bg" style="background-image:url(../../../../public/templateportfolio/images/son_templateCv1/bg2.jpg);"></div>
+                <div class="section-bg" style="background-image:url(../../../../public/templateportfolio/images/son_templateCv1/bg2-2.jpg);"></div>
+                <div class="section-bg" style="background-image:url(../../../../public/templateportfolio/images/son_templateCv1/bg2-3.jpg);"></div>
+                <div class="section-bg" style="background-image:url(../../../../public/templateportfolio/images/son_templateCv1/bg2-4.jpg);"></div>
+                <div class="section-bg" style="background-image:url(../../../../public/templateportfolio/images/son_templateCv1/bg2-5.jpg);"></div>
+                <div class="section-bg" style="background-image:url(../../../../public/templateportfolio/images/son_templateCv1/bg2-6.jpg);"></div>
             </div>
             <div class="scrollable-content">
                 <div class="vertical-centred">
@@ -208,7 +208,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
                                             <div class="dots-image-2">
-                                                <img alt="" class="img-responsive" src="public/templateportfolio/images/" AVATAR>
+                                                <img alt="" class="img-responsive" src="../../../../public/templateportfolio/images" AVATAR>
                                                 <div class="dots"></div>
                                                 <div class="experience-info">
                                                     <div class="number">4</div>
@@ -471,12 +471,12 @@
 frameborder="0" allowfullscreen="true"></iframe> -->
 <!-- jQuery -->
 
-<script src="public/templateportfolio/js/son_templateCv1/jquery.min.js"></script>
-<script src="public/templateportfolio/js/son_templateCv1/bootstrap.min.js"></script>
-<script src="public/templateportfolio/js/son_templateCv1/smoothscroll.js"></script>
-<script src="public/templateportfolio/js/son_templateCv1/jquery.validate.min.js"></script>
-<script src="public/templateportfolio/js/son_templateCv1/owl.carousel.min.js"></script>
-<script src="public/templateportfolio/js/son_templateCv1/jquery.pagepiling.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv1/jquery.min.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv1/bootstrap.min.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv1/smoothscroll.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv1/jquery.validate.min.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv1/owl.carousel.min.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv1/jquery.pagepiling.js"></script>
 
 <!-- Scripts -->
 <script src="js/scripts.js"></script><div id="pp-nav" class="right white right-boxed hidden-xs" style="color: rgb(0, 0, 0); margin-top: -161px;"><ul><li data-tooltip=""><a href="#page1" class="active"><span style="border-color: rgb(0, 0, 0);"></span></a></li><li data-tooltip=""><a href="#page2"><span style="border-color: rgb(0, 0, 0);"></span></a></li><li data-tooltip=""><a href="#page3"><span style="border-color: rgb(0, 0, 0);"></span></a></li><li data-tooltip=""><a href="#page4"><span style="border-color: rgb(0, 0, 0);"></span></a></li><li data-tooltip=""><a href="#page5"><span style="border-color: rgb(0, 0, 0);"></span></a></li><li data-tooltip=""><a href="#page6"><span style="border-color: rgb(0, 0, 0);"></span></a></li><li data-tooltip=""><a href="#page7"><span style="border-color: rgb(0, 0, 0);"></span></a></li><li data-tooltip=""><a href="#undefined"><span style="border-color: rgb(0, 0, 0);"></span></a></li></ul></div>

@@ -5,9 +5,9 @@
     <title>Creative CV</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="public/templateportfolio/css/son-templateCv2/aos.css?ver=1.1.0" rel="stylesheet">
-    <link href="public/templateportfolio/css/son-templateCv2/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-    <link href="public/templateportfolio/css/son-templateCv2/main.css?ver=1.1.0" rel="stylesheet">
+    <link href="../../../../public/templateportfolio/css/son-templateCv2/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="../../../../public/templateportfolio/css/son-templateCv2/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="../../../../public/templateportfolio/css/son-templateCv2/main.css?ver=1.1.0" rel="stylesheet">
     <noscript>
         <style type="text/css">
             [data-aos] {
@@ -43,10 +43,10 @@
         <div class="profile-page">
             <div class="wrapper">
                 <div class="page-header page-header-small" filter-color="green">
-                    <div class="page-header-image" data-parallax="true" style="background-image: url('public/templateportfolio/images/son_templateCv2/cc-bg-1.jpg')"></div>
+                    <div class="page-header-image" data-parallax="true" style="background-image: url('../../../../public/templateportfolio/images/son_templateCv2/cc-bg-1.jpg')"></div>
                     <div class="container">
                         <div class="content-center">
-                            <div class="cc-profile-image"><a href="#"><img src="public/templateportfolio/images/son_templateCv2/anthony.jpg" alt="Image"></a></div>
+                            <div class="cc-profile-image"><a href="#"><img src="../../../../public/templateportfolio/images/son_templateCv2/anthony.jpg" alt="Image"></a></div>
                             <div class="h2 title">Anthony Barnett</div>
                             <p class="category text-white">Web Developer, Graphic Designer,  Photographer</p><a class="btn btn-primary smooth-scroll mr-2 aos-init aos-animate" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary aos-init aos-animate" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
                         </div>
@@ -176,14 +176,14 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="cc-porfolio-image img-raised aos-init" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/project-1.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/project-1.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Recent Project</div>
                                                     <p>Web Development</p>
                                                 </figcaption>
                                             </figure></a></div>
                                     <div class="cc-porfolio-image img-raised aos-init" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/project-2.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/project-2.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Startup Project</div>
                                                     <p>Web Development</p>
@@ -192,14 +192,14 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="cc-porfolio-image img-raised aos-init" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/project-3.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/project-3.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Food Order Project</div>
                                                     <p>Web Development</p>
                                                 </figcaption>
                                             </figure></a></div>
                                     <div class="cc-porfolio-image img-raised aos-init" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/project-4.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/project-4.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Web Advertising Project</div>
                                                     <p>Web Development</p>
@@ -214,14 +214,14 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/graphic-design-1.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/graphic-design-1.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Triangle Pattern</div>
                                                     <p>Graphic Design</p>
                                                 </figcaption>
                                             </figure></a></div>
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/graphic-design-2.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/graphic-design-2.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Abstract Umbrella</div>
                                                     <p>Graphic Design</p>
@@ -230,14 +230,14 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/graphic-design-3.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/graphic-design-3.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Cube Surface Texture</div>
                                                     <p>Graphic Design</p>
                                                 </figcaption>
                                             </figure></a></div>
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/graphic-design-4.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/graphic-design-4.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Abstract Line</div>
                                                     <p>Graphic Design</p>
@@ -252,14 +252,14 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/photography-1.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/photography-1.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Photoshoot</div>
                                                     <p>Photography</p>
                                                 </figcaption>
                                             </figure></a></div>
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/photography-3.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/photography-3.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Wedding Photoshoot</div>
                                                     <p>Photography</p>
@@ -268,14 +268,14 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/photography-2.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/photography-2.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Beach Photoshoot</div>
                                                     <p>Photography</p>
                                                 </figcaption>
                                             </figure></a></div>
                                     <div class="cc-porfolio-image img-raised aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                            <figure class="cc-effect"><img src="public/templateportfolio/images/son_templateCv2/photography-4.jpg" alt="Image">
+                                            <figure class="cc-effect"><img src="../../../../public/templateportfolio/images/son_templateCv2/photography-4.jpg" alt="Image">
                                                 <figcaption>
                                                     <div class="h4">Nature Photoshoot</div>
                                                     <p>Photography</p>
@@ -410,7 +410,7 @@
                         <div class="carousel-inner">
                             <div class="carousel-item">
                                 <div class="row">
-                                    <div class="col-lg-2 col-md-3 cc-reference-header"><img src="public/templateportfolio/images/son_templateCv2/reference-image-1.jpg" alt="Image">
+                                    <div class="col-lg-2 col-md-3 cc-reference-header"><img src="../../../../public/templateportfolio/images/son_templateCv2/reference-image-1.jpg" alt="Image">
                                         <div class="h5 pt-2">Aiyana</div>
                                         <p class="category">CEO / WEBM</p>
                                     </div>
@@ -421,7 +421,7 @@
                             </div>
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="col-lg-2 col-md-3 cc-reference-header"><img src="public/templateportfolio/images/son_templateCv2/reference-image-2.jpg" alt="Image">
+                                    <div class="col-lg-2 col-md-3 cc-reference-header"><img src="../../../../public/templateportfolio/images/son_templateCv2/reference-image-2.jpg" alt="Image">
                                         <div class="h5 pt-2">Braiden</div>
                                         <p class="category">CEO / Creativem</p>
                                     </div>
@@ -432,7 +432,7 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="row">
-                                    <div class="col-lg-2 col-md-3 cc-reference-header"><img src="public/templateportfolio/images/son_templateCv2/reference-image-3.jpg" alt="Image">
+                                    <div class="col-lg-2 col-md-3 cc-reference-header"><img src="../../../../public/templateportfolio/images/son_templateCv2/reference-image-3.jpg" alt="Image">
                                         <div class="h5 pt-2">Alexander</div>
                                         <p class="category">CEO / Webnote</p>
                                     </div>
@@ -447,7 +447,7 @@
             </div>
         </div>
         <div class="section" id="contact">
-            <div class="cc-contact-information" style="background-image: url('public/templateportfolio/images/son_templateCv2/staticmap.png')">
+            <div class="cc-contact-information" style="background-image: url('../../../../public/templateportfolio/images/son_templateCv2/staticmap.png')">
                 <div class="container">
                     <div class="cc-contact">
                         <div class="row">
@@ -521,11 +521,11 @@
         <p>© Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
     </div>
 </footer>
-<script src="public/templateportfolio/js/son_templateCv2/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
-<script src="public/templateportfolio/js/son_templateCv2/core/popper.min.js?ver=1.1.0"></script>
-<script src="public/templateportfolio/js/son_templateCv2/core/bootstrap.min.js?ver=1.1.0"></script>
-<script src="public/templateportfolio/js/son_templateCv2/now-ui-kit.js?ver=1.1.0"></script>
-<script src="public/templateportfolio/js/son_templateCv2/aos.js?ver=1.1.0"></script>
-<script src="public/templateportfolio/scripts/son_templateCv2/main.js?ver=1.1.0"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv2/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv2/core/popper.min.js?ver=1.1.0"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv2/core/bootstrap.min.js?ver=1.1.0"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv2/now-ui-kit.js?ver=1.1.0"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv2/aos.js?ver=1.1.0"></script>
+<script src="../../../../public/templateportfolio/scripts/son_templateCv2/main.js?ver=1.1.0"></script>
 
 </body></html>

@@ -17,14 +17,14 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="public/templateportfolio/css/son-templateCv3/default.css">
-    <link rel="stylesheet" href="public/templateportfolio/css/son-templateCv3/layout.css">
-    <link rel="stylesheet" href="public/templateportfolio/css/son-templateCv3/media-queries.css">
-    <link rel="stylesheet" href="public/templateportfolio/css/son-templateCv3/magnific-popup.css">
+    <link rel="stylesheet" href="../../../../public/templateportfolio/css/son-templateCv3/default.css">
+    <link rel="stylesheet" href="../../../../public/templateportfolio/css/son-templateCv3/layout.css">
+    <link rel="stylesheet" href="../../../../public/templateportfolio/css/son-templateCv3/media-queries.css">
+    <link rel="stylesheet" href="../../../../public/templateportfolio/css/son-templateCv3/magnific-popup.css">
 
     <!-- Script
     ================================================== -->
-    <script src="public/templateportfolio/js/son_templateCv3/modernizr.js"></script>
+    <script src="../../../../public/templateportfolio/js/son_templateCv3/modernizr.js"></script>
 
     <!-- Favicons
      ================================================== -->
@@ -88,7 +88,7 @@
 
         <div class="three columns">
 
-            <img class="profile-pic"  src="public/templateportfolio/images/son_templateCv3/profilepic.jpg" alt="" />
+            <img class="profile-pic" src="../../../../public/templateportfolio/images/son_templateCv3/profilepic.jpg" alt="" />
 
         </div>
 
@@ -294,7 +294,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-01" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/coffee.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/coffee.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Coffee</h5>
@@ -311,7 +311,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-02" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/console.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/console.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Console</h5>
@@ -328,7 +328,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-03" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/judah.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/judah.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Judah</h5>
@@ -345,7 +345,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-04" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/into-the-light.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/into-the-light.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Into The Light</h5>
@@ -362,7 +362,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-05" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/farmerboy.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/farmerboy.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Farmer Boy</h5>
@@ -379,7 +379,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-06" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/girl.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/girl.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Girl</h5>
@@ -396,7 +396,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-07" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/origami.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/origami.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Origami</h5>
@@ -413,7 +413,7 @@
                     <div class="item-wrap">
 
                         <a href="#modal-08" title="">
-                            <img alt="" src="public/templateportfolio/images/son_templateCv3/portfolio/retrocam.jpg">
+                            <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/retrocam.jpg">
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>Retrocam</h5>
@@ -436,7 +436,7 @@
 
         <div id="modal-01" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-coffee.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-coffee.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Coffee Cup</h4>
@@ -453,7 +453,7 @@
 
         <div id="modal-02" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-console.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-console.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Console</h4>
@@ -470,7 +470,7 @@
 
         <div id="modal-03" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-judah.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-judah.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Judah</h4>
@@ -487,7 +487,7 @@
 
         <div id="modal-04" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-intothelight.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-intothelight.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Into the Light</h4>
@@ -504,7 +504,7 @@
 
         <div id="modal-05" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-farmerboy.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-farmerboy.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Farmer Boy</h4>
@@ -521,7 +521,7 @@
 
         <div id="modal-06" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-girl.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-girl.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Girl</h4>
@@ -538,7 +538,7 @@
 
         <div id="modal-07" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-origami.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-origami.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Origami</h4>
@@ -555,7 +555,7 @@
 
         <div id="modal-08" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="public/templateportfolio/images/son_templateCv3/portfolio/modals/m-retrocam.jpg" alt="" />
+            <img class="scale-with-grid" src="../../../../public/templateportfolio/images/son_templateCv3/portfolio/modals/m-retrocam.jpg" alt="" />
 
             <div class="description-box">
                 <h4>Retrocam</h4>
@@ -714,7 +714,7 @@
                     <div>
                         <button class="submit">Submit</button>
                         <span id="image-loader">
-                        <img alt="" src="public/templateportfolio/images/son_templateCv3/loader.gif">
+                        <img alt="" src="../../../../public/templateportfolio/images/son_templateCv3/loader.gif">
                      </span>
                     </div>
 
@@ -811,14 +811,14 @@
 <!-- Java Script
 ================================================== -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="public/templateportfolio/js/son_templateCv3/jquery-1.10.2.min.js"><\/script>')</script>
-<script type="text/javascript" src="public/templateportfolio/js/son_templateCv3/jquery-migrate-1.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../../../public/templateportfolio/js/son_templateCv3/jquery-1.10.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="../../../../public/templateportfolio/js/son_templateCv3/jquery-migrate-1.2.1.min.js"></script>
 
-<script src="public/templateportfolio/js/son_templateCv3/jquery.flexslider.js"></script>
-<script src="public/templateportfolio/js/son_templateCv3/waypoints.js"></script>
-<script src="public/templateportfolio/js/son_templateCv3/jquery.fittext.js"></script>
-<script src="public/templateportfolio/js/son_templateCv3/magnific-popup.js"></script>
-<script src="public/templateportfolio/js/son_templateCv3/init.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv3/jquery.flexslider.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv3/waypoints.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv3/jquery.fittext.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv3/magnific-popup.js"></script>
+<script src="../../../../public/templateportfolio/js/son_templateCv3/init.js"></script>
 
 </body>
 
