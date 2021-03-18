@@ -69,7 +69,7 @@
                     <li><a class="nav-link" href="{{ route('about') }}">About us</a></li>
                     <li><a class="nav-link" href="{{ route('service') }}">Service</a></li>
                     <li><a class="nav-link" href="{{ route('contact') }}">Contact Us</a></li>
-                    <li><a class="nav-link active" style="background:#fff;color:#000;" href="{{ route('signin') }}">SignIn
+                    <li><a class="nav-link active"  href="{{ route('signin') }}">SignIn
                             | SignUp</a></li>
                 </ul>
             </div>

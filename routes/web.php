@@ -5,39 +5,39 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('index');
+    return view('client.index');
 });
 
 Route::get('/admin', function () {
-    return view('home');
-})->name('home');
+    return view('backend.home');
+})->name('admin');
 
-Route::get('/home', function () {
-    return view('index');
+Route::get('/index', function () {
+    return view('client.index');
 })->name('index');
 
 Route::get('/about-us', function () {
-    return view('about');
+    return view('client.about');
 })->name('about');
 
 Route::get('/contact-us', function () {
-    return view('contact');
+    return view('client.contact');
 })->name('contact');
 
 Route::get('/our-service', function () {
-    return view('service');
+    return view('client.service');
 })->name('service');
 
 Route::get('/sign-in', function () {
-    return view('signin');
+    return view('client.signin');
 })->name('signin');
 
 Route::get('/sign-up', function () {
-    return view('signup');
+    return view('client.signup');
 })->name('signup');
 
 Route::get('/profie', function () {
-    return view('profie');
+    return view('client.profie');
 })->name('profie');
 
 Route::get('/sendemail', 'SendEmailController@index');
@@ -50,7 +50,13 @@ Route::prefix('categories')->group(function (){
     ]);
 });
 
+Route::prefix('admin')->group(function(){
+    Route::get('/index',[
+       'as' => 'admin.index',
+       'uses' => 'AdminController@index'
+    ]);
 
+});
 
 
 

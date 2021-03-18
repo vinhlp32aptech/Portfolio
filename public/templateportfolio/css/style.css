@@ -291,7 +291,7 @@ a#scroll-to-top i {
 }
  .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
      background: transparent;
-     color: #fff;
+     color: #0892fd;
      /*border-radius: ;*/
 }
  .search_icon.nav-link img {
