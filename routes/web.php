@@ -9,7 +9,7 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', function () {
-    return view('backend.home');
+    return view('backend.admin');
 })->name('admin');
 
 Route::get('/index', function () {
