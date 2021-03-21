@@ -23,7 +23,7 @@ Route::get('/profie', 'Frontend\ProfieController@index')->name('profie');
 
 ///admin
 
-Route::get('/admin', 'Backend/AdminController@index')->name('admin');
+Route::get('/admin', 'Backend\AdminController@index')->name('admin');
 
 
 Route::get('/sendemail', 'SendEmailController@index');
