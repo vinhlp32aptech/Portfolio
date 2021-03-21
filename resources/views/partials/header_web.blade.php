@@ -20,20 +20,20 @@
     <link rel="apple-touch-icon" href="#"/>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="templateportfolio/css/bootstrap.min.css">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/bootstrap.min.css') }}">
     <!-- Pogo Slider CSS -->
-    <link rel="stylesheet" href="templateportfolio/css/pogo-slider.min.css">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/pogo-slider.min.css') }}">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="templateportfolio/css/style.css">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/style.css') }}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="templateportfolio/css/responsive.css">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/responsive.css') }}">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="templateportfolio/css/custom.css">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/custom.css') }}">
 
-    <link rel="stylesheet" href="templateportfolio/css/son.css">
-    <link rel="stylesheet" href="templateportfolio/css/cuong.css">
-    <link rel="stylesheet" href="templateportfolio/css/nam.css">
-    <link rel="stylesheet" href="templateportfolio/css/vinh.css">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/son.css') }}">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/cuong.css') }}">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/nam.css') }}">
+    <link rel="stylesheet" href=" {{ asset('templateportfolio/css/vinh.css') }}">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -56,7 +56,7 @@
 <header class="top-header">
     <nav class="navbar header-nav navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ route('index') }}"><img src="templateportfolio/images/logo.png" alt="image"></a>
+            <a class="navbar-brand" href="{{ route('frontend.index') }}"><img src="templateportfolio/images/logo.png" alt="image"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd"
                     aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
@@ -65,7 +65,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link active" href="{{ route('index') }}">Home</a></li>
+                    <li><a class="nav-link active" href="{{ route('frontend.index') }}">Home</a></li>
                     <li><a class="nav-link" href="{{ route('about') }}">About us</a></li>
                     <li><a class="nav-link" href="{{ route('service') }}">Service</a></li>
                     <li><a class="nav-link" href="{{ route('contact') }}">Contact Us</a></li>

@@ -5,7 +5,7 @@
             <div class="col-md-4">
                 <div class="col-lg-12">
                     <div class="logo">
-                        <a href="{{ url('index') }}"><img src="templateportfolio/images/logo1.png" alt="#" /></a>
+                        <a href="{{ url('index') }}"><img src=" {{ asset('templateportfolio/images/logo1.png') }}" alt="#" /></a>
                     </div>
                 </div></div>
             <div class="col-md-4">
@@ -13,7 +13,7 @@
                     <div class="row">
                         <div class="col-md-4"></div>
                         <div class="full icon text_align_center">
-                            <img src="templateportfolio/images/social1.png">
+                            <img src=" {{ asset('templateportfolio/images/social1.png') }}">
                         </div>
                         <div class="full white_fonts text_align_center">
                             <p>London 145
@@ -22,7 +22,7 @@
 
 
                         <div class="full icon text_align_center">
-                            <img src="templateportfolio/images/social2.png">
+                            <img src=" {{ asset('templateportfolio/images/social2.png') }}">
                         </div>
                         <div class="full white_fonts text_align_center">
                             <p>consultation@gmail.com
@@ -31,7 +31,7 @@
 
 
                         <div class="full icon text_align_center">
-                            <img src="templateportfolio/images/social3.png">
+                            <img src=" {{ asset('templateportfolio/images/social3.png') }}">
                         </div>
                         <div class="full white_fonts text_align_center">
                             <p>+7586656566
@@ -90,24 +90,24 @@
 <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
 <!-- ALL JS FILES -->
-<script src="templateportfolio/js/jquery.min.js"></script>
-<script src="templateportfolio/js/popper.min.js"></script>
-<script src="templateportfolio/js/bootstrap.min.js"></script>
-<script src="templateportfolio/js/son.js"></script>
-<script src="templateportfolio/js/nam.js"></script>
-<script src="templateportfolio/js/cuong.js"></script>
-<script src="templateportfolio/js/vinh.js"></script>
+<script src=" {{ asset('templateportfolio/js/jquery.min.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/popper.min.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/bootstrap.min.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/son.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/nam.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/cuong.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/vinh.js') }}"></script>
 
 <!-- ALL PLUGINS -->
-<script src="templateportfolio/js/jquery.magnific-popup.min.js"></script>
-<script src="templateportfolio/js/jquery.pogo-slider.min.js"></script>
-<script src="templateportfolio/js/slider-index.js"></script>
-<script src="templateportfolio/js/smoothscroll.js"></script>
-<script src="templateportfolio/js/form-validator.min.js"></script>
-<script src="templateportfolio/js/contact-form-script.js"></script>
-<script src="templateportfolio/js/isotope.min.js"></script>
-<script src="templateportfolio/js/images-loded.min.js"></script>
-<script src="templateportfolio/js/custom.js"></script>
+<script src=" {{ asset('emplateportfolio/js/jquery.magnific-popup.min.js') }}t"></script>
+<script src=" {{ asset('templateportfolio/js/jquery.pogo-slider.min.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/slider-index.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/smoothscroll.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/form-validator.min.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/contact-form-script.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/isotope.min.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/images-loded.min.js') }}"></script>
+<script src=" {{ asset('templateportfolio/js/custom.js') }}"></script>
 </body>
 
 </html>

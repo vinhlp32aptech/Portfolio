@@ -2,43 +2,29 @@
 
 use Illuminate\Support\Facades\Route;
 
+//client
+
+Route::get('/', 'Frontend\IndexController@index');
+Route::get('/index', 'Frontend\IndexController@index')->name('frontend.index');
 
 
-Route::get('/', function () {
-    return view('client.index');
-});
 
-Route::get('/admin', function () {
-    return view('backend.admin');
-})->name('admin');
+Route::get('/about-us', 'Frontend\AboutController@index')->name('about');
 
-Route::get('/index', function () {
-    return view('client.index');
-})->name('index');
+Route::get('/contact-us', 'Frontend\ContactController@index')->name('contact');
 
-Route::get('/about-us', function () {
-    return view('client.about');
-})->name('about');
+Route::get('/our-service', 'Frontend\ServiceController@index')->name('service');
 
-Route::get('/contact-us', function () {
-    return view('client.contact');
-})->name('contact');
+Route::get('/sign-in', 'Frontend\SigninController@index')->name('signin');
 
-Route::get('/our-service', function () {
-    return view('client.service');
-})->name('service');
+Route::get('/sign-up', 'Frontend\SignupController@index')->name('signup');
 
-Route::get('/sign-in', function () {
-    return view('client.signin');
-})->name('signin');
+Route::get('/profie', 'Frontend\ProfieController@index')->name('profie');
 
-Route::get('/sign-up', function () {
-    return view('client.signup');
-})->name('signup');
+///admin
 
-Route::get('/profie', function () {
-    return view('client.profie');
-})->name('profie');
+Route::get('/admin', 'Backend/AdminController@index')->name('admin');
+
 
 Route::get('/sendemail', 'SendEmailController@index');
 Route::post('/sendemail/send', 'SendEmailController@send');
@@ -50,13 +36,7 @@ Route::prefix('categories')->group(function (){
     ]);
 });
 
-Route::prefix('admin')->group(function(){
-    Route::get('/index',[
-       'as' => 'admin.index',
-       'uses' => 'AdminController@index'
-    ]);
 
-});
 
 
 
