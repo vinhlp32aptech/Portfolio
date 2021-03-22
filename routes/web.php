@@ -25,6 +25,30 @@ Route::get('/profie', 'Frontend\ProfieController@index')->name('profie');
 
 Route::get('/admin', 'Backend\AdminController@index')->name('admin');
 
+Route::get('/inbox', 'Backend\InboxController@index')->name('inbox');
+
+Route::get('/compose', 'Backend\ComposeController@index')->name('compose');
+
+Route::get('/read', 'Backend\ReadController@index')->name('read');
+
+Route::get('/account', 'Backend\AccountController@index')->name('account');
+
+Route::get('/hashtag', 'Backend\HashtagController@index')->name('hashtag');
+
+Route::get('/profile', 'Backend\ProfileController@index')->name('profile');
+
+Route::get('/social-network', 'Backend\SocialNetWorkController@index')->name('social-network');
+
+Route::get('/rating', 'Backend\RatingController@index')->name('rating');
+
+Route::get('/view', 'Backend\ViewController@index')->name('view');
+
+Route::get('/follow', 'Backend\FollowController@index')->name('follow');
+
+
+
+
+
 
 Route::get('/sendemail', 'SendEmailController@index');
 Route::post('/sendemail/send', 'SendEmailController@send');

@@ -29,15 +29,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
     <div class="container">
-        <h2>RATING</h2>
+        <h2>PROFILE</h2>
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>Id Rating</th>
-                <th>Id Reviewer</th>
-                <th>Icon Owner</th>
-                <th>Start Of Raing</th>
-                <th>Num Of Rating</th>
+                <th>Id Account</th>
+                <th>Fisrt Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th>Wedsite</th>
+                <th>Job</th>
+                <th>Project</th>
+
+
+
             </tr>
             </thead>
             <tbody>
@@ -46,6 +52,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <td>Doe</td>
                 <td>john@example.com</td>
                 <td>john@example.com</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
                 <td>john@example.com</td>
             </tr>
             <tr>
@@ -53,6 +62,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <td>Moe</td>
                 <td>mary@example.com</td>
                 <td>mary@example.com</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
                 <td>john@example.com</td>
             </tr>
             <tr>
@@ -60,6 +72,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <td>Dooley</td>
                 <td>july@example.com</td>
                 <td>july@example.com</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
                 <td>john@example.com</td>
             </tr>
             </tbody>

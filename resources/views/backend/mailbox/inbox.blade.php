@@ -29,15 +29,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
     <div class="container">
-        <h2>RATING</h2>
+        <h2>Email is sent to</h2>
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>Id Rating</th>
-                <th>Id Reviewer</th>
-                <th>Icon Owner</th>
-                <th>Start Of Raing</th>
-                <th>Num Of Rating</th>
+                <th>Id email</th>
+                <th>Email</th>
+                <th>Date and Time</th>
+                <th>Message</th>
+
             </tr>
             </thead>
             <tbody>
@@ -46,21 +46,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <td>Doe</td>
                 <td>john@example.com</td>
                 <td>john@example.com</td>
-                <td>john@example.com</td>
             </tr>
             <tr>
                 <td>Mary</td>
                 <td>Moe</td>
                 <td>mary@example.com</td>
                 <td>mary@example.com</td>
-                <td>john@example.com</td>
             </tr>
             <tr>
                 <td>July</td>
                 <td>Dooley</td>
                 <td>july@example.com</td>
                 <td>july@example.com</td>
-                <td>john@example.com</td>
             </tr>
             </tbody>
         </table>
