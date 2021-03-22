@@ -36,7 +36,7 @@
                      with font-awesome or any other icon font library -->
                 <li class="nav-header">Manage Web</li>
                 <li class="nav-item">
-                    <a href="pages/calendar.html" class="nav-link">
+                    <a href="{{ route('menus.admin') }}" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
                         <p>
                             Menu
@@ -45,7 +45,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/gallery.html" class="nav-link">
+                    <a href="{{ route('social-webs.admin') }}" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
                         <p>
                             Social Web
@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/kanban.html" class="nav-link">
+                    <a href="{{route('footers.admin')}}" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
                             Footer

@@ -13,7 +13,7 @@
 @section('content')
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-    @include('partials.content-header', ['name' => 'Home', 'key' => 'home'])
+    @include('partials.content-header', ['name' => 'Footer', 'key' => 'home'])
     <!-- /.content-header -->
 
         <!-- Main content -->
@@ -21,7 +21,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="{{ route('categories.create') }}" class="btn btn-success float-right m-2">Add</a>
+                        <a href="{{route('footers.create')}}" class="btn btn-success float-right m-2">Add</a>
                     </div>
                     <div class="col-md-12">
 
@@ -29,9 +29,10 @@
                             <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Name_contact</th>
+                                <th scope="col">icon_contact</th>
+                                <th scope="col">content_contact</th>
+                                <th scope="col">Action</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -40,18 +41,12 @@
                                 <td>Mark</td>
                                 <td>Otto</td>
                                 <td>@mdo</td>
+                                <td>
+                                    <a href="" class="btn btn-default">Edit</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
                             </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
+
                             </tbody>
                         </table>
                     </div>

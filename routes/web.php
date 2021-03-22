@@ -45,6 +45,46 @@ Route::get('/view', 'Backend\ViewController@index')->name('view');
 
 Route::get('/follow', 'Backend\FollowController@index')->name('follow');
 
+    Route::get('/create', [
+        'as' => 'menus.create',
+        'uses' => 'MenuController@create'
+    ]);
+    Route::post('/store', [
+        'as' => 'menus.store',
+        'uses' => 'MenuController@store'
+    ]);
+
+/*  Social web       */
+Route::prefix('social-webs')->group(function (){
+    Route::get('/', [
+        'as' => 'social-webs.admin',
+        'uses' => 'SocialwebController@admin'
+    ]);
+    Route::get('/create', [
+        'as' => 'social-webs.create',
+        'uses' => 'SocialwebController@create'
+    ]);
+    Route::post('/store', [
+        'as' => 'social-webs.store',
+        'uses' => 'SocialwebController@store'
+    ]);
+});
+
+/*  footer       */
+Route::prefix('footers')->group(function (){
+    Route::get('/', [
+        'as' => 'footers.admin',
+        'uses' => 'FooterController@admin'
+    ]);
+    Route::get('/create', [
+        'as' => 'footers.create',
+        'uses' => 'FooterController@create'
+    ]);
+    Route::post('/store', [
+        'as' => 'footers.store',
+        'uses' => 'FooterController@store'
+    ]);
+});
 
 
 
@@ -60,6 +100,13 @@ Route::prefix('categories')->group(function (){
     ]);
 });
 
+/*  menu       */
+Route::prefix('menus')->group(function () {
+    Route::get('/', [
+        'as' => 'menus.admin',
+        'uses' => 'MenuController@admin'
+    ]);
+});
 
 
 
