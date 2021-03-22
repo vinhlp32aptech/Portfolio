@@ -29,15 +29,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
     <div class="container">
-        <h2>RATING</h2>
+        <h2>Compose</h2>
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>Id Rating</th>
-                <th>Id Reviewer</th>
-                <th>Icon Owner</th>
-                <th>Start Of Raing</th>
-                <th>Num Of Rating</th>
+                <th>Id Compose</th>
+                <th>Id Email Customer</th>
+                <th>Email</th>
+                <th>Date and Time</th>
+                <th>Message</th>
+
             </tr>
             </thead>
             <tbody>

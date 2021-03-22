@@ -70,13 +70,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/mailbox/mailbox.html" class="nav-link">
+                            <a href="{{ route('inbox') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Inbox</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/mailbox/compose.html" class="nav-link">
+                            <a href="{{ route('compose') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Compose</p>
                             </a>
@@ -284,7 +284,7 @@
                 </li>
                 <li class="nav-header">Manage User</li>
                 <li class="nav-item">
-                    <a href="pages/calendar.html" class="nav-link">
+                    <a href="{{ route('account') }}" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
                         <p>
                             Account
@@ -293,7 +293,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/calendar.html" class="nav-link">
+                    <a href="{{ route('hashtag') }}" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
                         <p>
                             Hashtag
@@ -312,31 +312,31 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/examples/invoice.html" class="nav-link">
+                            <a href="{{ route('profile') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Profie</p>
+                                <p>Profile</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/profile.html" class="nav-link">
+                            <a href="{{ route('social-network') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Social network</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/e-commerce.html" class="nav-link">
+                            <a href="{{ route('rating') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Rating</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/projects.html" class="nav-link">
+                            <a href="{{ route('view') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>View</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/project-add.html" class="nav-link">
+                            <a href="{{ route('follow') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Follow</p>
                             </a>
@@ -381,9 +381,9 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/mailbox/mailbox.html" class="nav-link">
+                            <a class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Inbox</p>
+                                <p >Inbox</p>
                             </a>
                         </li>
                         <li class="nav-item">
