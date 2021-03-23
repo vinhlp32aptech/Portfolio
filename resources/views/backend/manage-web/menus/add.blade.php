@@ -13,7 +13,7 @@
 @section('content')
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-            @include('partials.content-header',['name' => 'Social web', 'key' => 'Add'])
+            @include('partials.content-header',['name' => 'menus', 'key' => 'Add'])
         <!-- /.content-header -->
 
         <!-- Main content -->
@@ -22,27 +22,18 @@
                 <div class="row">
                     <div class="col-md-6">
 
-                        <form action="{{route('social-webs.store')}}" method="post">
+                        <form action="{{route('backend.manage-web.menus.store')}}" method="post">
                             <div class="form-group">
-                                <label>Name_soc</label>
-                                <input type="email" class="form-control" placeholder="Enter name_soc">
+                                <label>Tên Menus</label>
+                                <input type="email" class="form-control" placeholder="Nhập tên danh mục">
 
                             </div>
                             <div class="form-group">
-                                <label>Icon_soc</label>
-                                <input type="email" class="form-control" placeholder="Enter icon_soc">
-
-                            </div>
-                            <div class="form-group">
-                                <label>url_soc</label>
-                                <input type="email" class="form-control" placeholder="Enter url_soc">
-
-                            </div>
-                            <div class="form-group">
-                                <label>Choose main category</label>
+                                <label>Chọn menus cha</label>
                                 <select class="form-control">
-                                    <option value="0">Thư mục cha</option>
+                                    <option value="0">Chọn danh mục cha</option>
 
+                                </select>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
@@ -53,7 +44,10 @@
                 <!-- /.row -->
             </div><!-- /.container-fluid -->
         </div>
-        <!-- /.content -->
+
+
+
+    <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
 @endsection

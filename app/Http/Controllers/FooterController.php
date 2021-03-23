@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 
 class FooterController extends Controller
 {
-    public function admin(){
-     return view('footer.admin');
+    public function footer(){
+     return view('backend.manage-web.footers.footer');
     }
 
     public function create(){
-        return view('footer.add');
+        return view('backend.manage-web.footers.add');
     }
 }

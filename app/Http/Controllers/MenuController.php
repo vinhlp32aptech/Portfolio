@@ -7,10 +7,12 @@ use Illuminate\Http\Request;
 
 class MenuController extends Controller
 {
-    public function admin(){
-        return view('menus.admin');
-    }
+  
     public function create(){
-        return view('menus.add');
+        return view('backend.manage-web.menus.add');
+    }
+    public function  menu(){
+        return view('backend.manage-web.menus.menu');
+
     }
 }

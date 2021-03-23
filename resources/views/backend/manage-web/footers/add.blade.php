@@ -22,7 +22,7 @@
                 <div class="row">
                     <div class="col-md-6">
 
-                        <form action="{{route('footers.store')}}" method="post">
+                        <form action="{{route('backend.manage-web.footers.store')}}" method="post">
                             <div class="form-group">
                                 <label>Name_contact</label>
                                 <input type="email" class="form-control" placeholder="Nhập tên danh mục">

@@ -46,42 +46,42 @@ Route::get('/view', 'Backend\ViewController@index')->name('view');
 Route::get('/follow', 'Backend\FollowController@index')->name('follow');
 
     Route::get('/create', [
-        'as' => 'menus.create',
+        'as' => 'backend.manage-web.menus.create',
         'uses' => 'MenuController@create'
     ]);
     Route::post('/store', [
-        'as' => 'menus.store',
+        'as' => 'backend.manage-web.menus.store',
         'uses' => 'MenuController@store'
     ]);
 
 /*  Social web       */
-Route::prefix('social-webs')->group(function (){
+Route::prefix('socials')->group(function (){
     Route::get('/', [
-        'as' => 'social-webs.admin',
-        'uses' => 'SocialwebController@admin'
+        'as' => 'socials.social',
+        'uses' => 'SocialController@social'
     ]);
     Route::get('/create', [
-        'as' => 'social-webs.create',
-        'uses' => 'SocialwebController@create'
+        'as' => 'backend.manage-web.socials.create',
+        'uses' => 'SocialController@create'
     ]);
     Route::post('/store', [
-        'as' => 'social-webs.store',
-        'uses' => 'SocialwebController@store'
+        'as' => 'backend.manage-web.socials.store',
+        'uses' => 'SocialController@store'
     ]);
 });
 
 /*  footer       */
 Route::prefix('footers')->group(function (){
     Route::get('/', [
-        'as' => 'footers.admin',
-        'uses' => 'FooterController@admin'
+        'as' => 'footers.footer',
+        'uses' => 'FooterController@footer'
     ]);
     Route::get('/create', [
-        'as' => 'footers.create',
+        'as' => 'backend.manage-web.footers.create',
         'uses' => 'FooterController@create'
     ]);
     Route::post('/store', [
-        'as' => 'footers.store',
+        'as' => 'backend.manage-web.footers.store',
         'uses' => 'FooterController@store'
     ]);
 });
@@ -103,8 +103,8 @@ Route::prefix('categories')->group(function (){
 /*  menu       */
 Route::prefix('menus')->group(function () {
     Route::get('/', [
-        'as' => 'menus.admin',
-        'uses' => 'MenuController@admin'
+        'as' => 'menus.menu',
+        'uses' => 'MenuController@menu'
     ]);
 });
 
