@@ -19,9 +19,10 @@
 
         </div>
         <!-- Navbar Search -->
+
         <li class="nav-item">
 
-                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeviews" role="menu" data-accordion="false">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-search"></i>
@@ -32,15 +33,40 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="pages/search/simple.html" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Simple Search</p>
-                                </a>
+                                <div class="navbar-search-block">
+                                    <form class="form-inline">
+                                        <div class="input-group input-group-sm">
+                                            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+
+                                            <div class="input-group-append">
+                                                <button class="btn btn-navbar" type="submit">
+                                                    <i class="fas fa-search"></i>
+                                                </button>
+                                                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a href="pages/search/enhanced.html" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Enhanced</p>
+                                <div class="navbar-search-block">
+                                    <form class="form-inline">
+                                        <div class="input-group input-group-sm">
+                                            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+
+                                            <div class="input-group-append">
+                                                <button class="btn btn-navbar" type="submit">
+                                                    <i class="fas fa-search"></i>
+                                                </button>
+                                                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                                 </a>
                             </li>
                         </ul>
